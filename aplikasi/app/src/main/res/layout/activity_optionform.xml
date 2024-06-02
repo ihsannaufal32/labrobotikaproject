@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#242424"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/Theme.Labrobotikapendidikan.AppBarOverlay"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="202dp"
+        android:layout_height="212dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="80dp"
+        app:srcCompat="@drawable/labrobotikapendidikan" />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:text="Lab Robotika Pendidikan"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/peminjaman"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#8c52ff"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="45dp"
+        android:paddingLeft="85dp"
+        android:paddingRight="85dp"
+        android:text="Form Peminjaman" />
+
+    <Button
+        android:id="@+id/pengembalian"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#8c52ff"
+        android:text="Form Pengembalian"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="45dp"
+        android:paddingLeft="80dp"
+        android:paddingRight="75dp"/>
+
+    <Button
+        android:id="@+id/penggunaan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Form Penggunaan lab"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="45dp"
+        android:backgroundTint="#8c52ff"
+        android:paddingLeft="70dp"
+        android:paddingRight="62dp"/>
+
+    <Button
+        android:id="@+id/list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="List Form Lab Robotika Pendidikan"
+        android:layout_marginTop="500dp"
+        android:backgroundTint="#8c52ff"
+        android:layout_marginLeft="45dp"
+        android:paddingLeft="70dp"
+        android:paddingRight="62dp"/>
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

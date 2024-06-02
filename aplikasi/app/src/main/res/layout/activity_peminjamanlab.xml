@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity">
+    <Button
+        android:id="@+id/kembali"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="back"
+        android:layout_marginTop="550dp"
+        android:layout_marginLeft="230dp"
+        />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="submit"
+        android:layout_marginTop="550dp"
+        android:layout_marginLeft="100dp"/>
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textStyle="bold"
+        android:textSize="17dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="12dp"/>
+
+    <EditText
+        android:id="@+id/inputnama1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Your answer"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+    <TextView
+        android:id="@+id/nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama lengkap PJ peminjam"
+        android:textStyle="bold"
+        android:textSize="17dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="12dp"/>
+
+    <EditText
+        android:id="@+id/inputnama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Your answer"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+    <TextView
+        android:id="@+id/prodi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Asal prodi/unit"
+        android:textStyle="bold"
+        android:textSize="17dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="12dp"/>
+
+    <EditText
+        android:id="@+id/inputprodi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Your answer"
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+    <TextView
+        android:id="@+id/wa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No. WhatsApp"
+        android:textStyle="bold"
+        android:textSize="17dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginLeft="12dp"/>
+
+    <EditText
+        android:id="@+id/inputwa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Your answer"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+    <TextView
+        android:id="@+id/peminjaman"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Waktu peminjaman"
+        android:textStyle="bold"
+        android:textSize="17dp"
+        android:layout_marginTop="240dp"
+        android:layout_marginLeft="12dp"/>
+
+    <EditText
+        android:id="@+id/inputlamapeminjaman"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Your answer"
+        android:layout_marginTop="260dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+    <TextView
+        android:id="@+id/fasilitas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fasilitas yang dipinjam"
+        android:textStyle="bold"
+        android:textSize="17dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="12dp"/>
+
+    <EditText
+        android:id="@+id/inputfasilitas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Your answer"
+        android:layout_marginTop="320dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+    <TextView
+        android:id="@+id/jumlah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jumlah total barang yang dipinjam"
+        android:textStyle="bold"
+        android:textSize="17dp"
+        android:layout_marginTop="360dp"
+        android:layout_marginLeft="12dp"/>
+
+    <EditText
+        android:id="@+id/inputjumlah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Your answer"
+        android:layout_marginTop="380dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+    <TextView
+        android:id="@+id/keterangan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Keterangan tambahan"
+        android:textStyle="bold"
+        android:textSize="17dp"
+        android:layout_marginTop="420dp"
+        android:layout_marginLeft="12dp"/>
+
+    <EditText
+        android:id="@+id/inputketerangan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Your answer"
+        android:layout_marginTop="440dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+    <TextView
+        android:id="@+id/nim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NIM/NPM/NIDN/No. Induk lainnya"
+        android:textStyle="bold"
+        android:textSize="17dp"
+        android:layout_marginTop="480dp"
+        android:layout_marginLeft="12dp"/>
+
+    <EditText
+        android:id="@+id/inputnim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Your answer"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
